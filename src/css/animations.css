@@ -1,0 +1,36 @@
+@keyframes grow {
+    from {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    to {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.grow {
+    animation: grow 5s infinite ease-in-out forwards;
+}
+
+.shrink {
+    animation: grow 10s ease-in-out forwards reverse;
+}
+
+
+.constant-rotate {
+    animation: rotate 7.5s linear infinite;
+}

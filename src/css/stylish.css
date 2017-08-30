@@ -1,0 +1,173 @@
+@import "animations.css";
+
+head, body {
+    color: #333;
+    font-size: 25px;
+    font-family: 'Lobster Two', cursive;
+}
+
+body {
+    margin: 0px;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a:link, 
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    position: fixed;
+
+    justify-content: center;
+    overflow: hidden;
+
+    width: 100vw;
+}
+
+h2 {
+    padding-bottom: 2%;
+    border-bottom: 2px solid #fbf2e6;
+}
+
+h2::after {
+    
+}
+
+section {
+    display: none;
+    height: 100vh;
+
+    text-align: center;
+
+    color: #fbf2e6;
+}
+
+p {
+    font-size: 80%;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+
+.no-padding {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.story {
+    text-align: center;
+}
+
+#logo {
+    margin: 5vh 2vw;
+}
+
+.social {
+    font-size: 500%;
+}
+
+.social-media {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+
+    justify-content: center;
+
+    list-style: none;
+    text-align: center;
+}
+
+.social-media li {
+    display: inline-block;
+    margin: 5vh 3vw;
+}
+
+.ion-social-facebook, 
+.ion-social-instagram,
+.ion-social-twitter {
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-instagram:hover {
+    color: #125688;
+}   
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+section.active {
+    display: block;
+}
+
+.header-guard {
+    position: relative;
+    top: 27.5vh;
+
+    overflow: auto;
+}
+
+.max-image {
+    width: 60vw;
+}
+
+.gallery-icons {
+    margin: 5vh 0vw;
+    list-style: none;
+}
+
+.gallery-icons li {
+    display: inline-flex;
+    margin: 1vh 1vw;
+    width: 12.5vw;
+    height: 12.5vw;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+
+    border: 3px solid #e5a952;
+    background-color: #fff;
+    color: #e5a952;
+}
+
+.gallery-icons li img {
+    width: 100%;
+}
+
+.large-gallery li {
+    height: 17.5vw; /*Only using vw to understand size increase*/
+}
+
+.large-gallery li img {
+    height: 100%;
+    width: auto;
+}
+
+.centerer {
+    display: flex;
+
+    
+
+    width: 100%;
+    height: 100%;
+}
+
+.center-col {
+}
