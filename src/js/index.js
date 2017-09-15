@@ -56,7 +56,7 @@ $(document).ready(function() {
     }
 
     function getBackground(page) {
-        var background = "../../res/images/";
+        var background = "./res/images/";
         switch(page) {
             case "welcome":
                 background += "Sidebar.jpg";
